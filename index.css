@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+
+body{
+    
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.card{
+    font-family: 'Figtree',sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    border-color: #000000;
+    width: 320px;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px #000000;
+}
+.card_img{
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.status{
+    display: inline-block;
+    background-color:hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.pub{
+  font-size: 12px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 12px;
+}
+
+
+.title:hover{
+    color: #f4d04e;
+}
+
+.context{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.mentor{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mentor_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mentor_name {
+  font-size: 14px;
+  font-weight: 800;
+}
